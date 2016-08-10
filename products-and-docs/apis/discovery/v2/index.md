@@ -170,7 +170,7 @@ discovery/{version}/events.{format}
                     - `startApproximate` (boolean) - start approximate 
                     - `endDateTime` (string) - end date time 
                     - `endApproximate` (boolean) - end approximate
-                - `end` (object) - start of event.
+                - `end` (object) - end of event.
                     * `approximate` (boolean) - is approximate.
                     * `dateTime` (string) - date and time end of event.
                 - `start` (object) - start of event.
@@ -762,7 +762,7 @@ discovery/{version}/events/{id}.{format}
         - `startApproximate` (boolean) - start approximate 
         - `endDateTime` (string) - end date time 
         - `endApproximate` (boolean) - end approximate
-    - `end` (object) - start of event.
+    - `end` (object) - end of event.
         * `approximate` (boolean) - is approximate.
         * `dateTime` (string) - date and time end of event.
     - `start` (object) - start of event.
